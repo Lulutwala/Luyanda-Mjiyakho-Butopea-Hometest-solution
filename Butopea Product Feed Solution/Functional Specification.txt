@@ -6,3 +6,5 @@ team members or for others to view the project solutions.
 4.After deciding to use python 3, I then created a python file.
 5.After creating and naming the python file, I then checked the version of python 3 that is installed in my device 
 before declaring it to make sure that I do not have compatibility errors in the project.
+6.Before coding or seeing how to structure my python function which will hold the algorithm to the solution , I have to connect to the 
+SQLite database.To connect to it I have to import the SQLite version and then create the cursor which will execute the sqlite commands. 
