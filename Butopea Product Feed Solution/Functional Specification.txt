@@ -8,4 +8,5 @@ team members or for others to view the project solutions.
 before declaring it to make sure that I do not have compatibility errors in the project.
 6.Before coding or deciding on how to structure the python function which will hold the algorithm to the solution , I have to connect to the 
 SQLite database.To connect to it I have to import the SQLite version and then create the cursor which will execute the sqlite commands. 
-7.I added the sqlite in the same folder as my project folder and added the database connection in the python file.
+7.I added the sqlite in the same folder as my project folder so that the project can be run easier by those who will be downloading the solutions without having to change the
+path of the SQLite database file in the project,I then added the database connection in the python file.
