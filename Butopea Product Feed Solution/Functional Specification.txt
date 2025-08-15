@@ -1,4 +1,8 @@
 1.Before starting the project, I first created folders where I will store the solutions to the projects.
-2.I then connected the project to my gitHub by creating a new repository on my GitHub desktop,this makes it easier to collaborate with other team members or for others to view the project solutions.
-3.For this project solution, I choose to use python 3 which is the latest version of python.I will be using python version 3 which has built in library which allows SQLite to function effectively without any extra installations required.
+2.I then connected the project to my gitHub by creating a new repository on my GitHub desktop,this makes it easier to collaborate with other 
+team members or for others to view the project solutions.
+3.For this project solution, I choose to use python 3 which is the latest version of python.I will be using python version 3 which has built in library
+ which allows SQLite to function effectively without any extra installations required.
 4.After deciding to use python 3, I then created a python file.
+5.After creating and naming the python file, I then checked the version of python 3 that is installed in my device 
+before declaring it to make sure that I do not have compatibility errors in the project.
