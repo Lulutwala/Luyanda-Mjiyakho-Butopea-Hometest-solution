@@ -2,7 +2,7 @@
 2.I then connected the project to my gitHub by creating a new repository on my GitHub desktop,this makes it easier to collaborate with other 
 team members or for others to view the project solutions.
 3.For this project solution, I choose to use python 3 which is the latest version of python.I will be using python version 3 which has built in library
- which allows SQLite to function effectively without any extra installations required.
+which allows SQLite to function effectively without any extra installations required.
 4.After deciding to use python 3, I then created a python file.
 5.After creating and naming the python file, I then checked the version of python 3 that is installed in my device 
 before declaring it to make sure that I do not have compatibility errors in the project.
@@ -10,3 +10,7 @@ before declaring it to make sure that I do not have compatibility errors in the 
 SQLite database.To connect to it I have to import the SQLite version and then create the cursor which will execute the sqlite commands. 
 7.I added the sqlite in the same folder as my project folder so that the project can be run easier by those who will be downloading the solutions without having to change the
 path of the SQLite database file in the project,I then added the database connection in the python file.
+8. After connecting to the database, I ran the following prompt on ChatGPT ("Where can I view the information on the sqlite database file? Can I use dbeaver to view it?"), I felt
+that it was important to see how the tables are arranged in the database and to see if the data I need is in one table or spread on to other tables,
+this is so that I can join/merge the tables etc before fetching the data to ensure that all the data that I need is in one table.Dbeaver is usually perfect for this because it gives a 
+graphical view of all the tables and data and it works with a lot of different databases.
