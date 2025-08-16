@@ -20,7 +20,7 @@ JOIN product_description pro_des
     ON pro.product_id = pro_des.product_id
 JOIN product_image pro_image 
     ON pro_image.product_id = pro.product_id
-WHERE pro.quantity >= 1;
+WHERE pro.quantity >= 0;
 """)
 
 products = cursor.fetchall()
@@ -38,7 +38,7 @@ for prod in products:
     ET.SubElement(item, 'g:description').text = prod[2]
     ET.SubElement(item, 'g:link').text = f"https://butopea.com/product/{prod[0]}"
     ET.SubElement(item, 'g:image_link').text = prod[3]
-    ET.SubElement(item, 'g:availability').text = "in stock" if prod[4] > 0 else "out of stock"
+    ET.SubElement(item, 'g:availability').text = "in stock" if int(prod[4]) > 0 else "out of stock"
     ET.SubElement(item, 'g:price').text = f"{prod[5]:.2f} HUF"
     ET.SubElement(item, 'g:brand').text = prod[6]
 #saving the xml file
