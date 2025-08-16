@@ -17,3 +17,5 @@ graphical view of all the tables and data and it works with a lot of different d
 9.After joining all the tables ,I then extraxted all the columns associated with the data that was needed in the field.
 10.I then ran a prompt "How to create an XML product feed from a given database of products according to the Google Merchant product data specifications.", this will help me get a general idea of how to 
 create the structure of the XML faster since this is my first time creating it according to the Google Merchant product data specifications. 
+11.After creating the solution draft I ran the solution thrhough a chatboot to ensure that the solution meets the description of the problem
+to debug the solution quicker and to ensure that it is accurate.
