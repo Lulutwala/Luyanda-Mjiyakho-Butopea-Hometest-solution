@@ -19,3 +19,5 @@ graphical view of all the tables and data and it works with a lot of different d
 create the structure of the XML faster since this is my first time creating it according to the Google Merchant product data specifications. 
 11.After creating the solution draft I ran the solution thrhough a chatboot to ensure that the solution meets the description of the problem
 to debug the solution quicker and to ensure that it is accurate.
+
+To run the code: Run py "productFeed.py" after changing the directory to the file that contain the python file.
