@@ -7,7 +7,7 @@ cursor = dbconnection.cursor()
 cursor.execute("""
     SELECT 
         pro.product_id,
-        pro.name,
+        pro_des.name,
         pro_des.description,
         pro.quantity,
         pro.price,
