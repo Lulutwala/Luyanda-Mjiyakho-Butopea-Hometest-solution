@@ -14,3 +14,6 @@ path of the SQLite database file in the project,I then added the database connec
 that it was important to see how the tables are arranged in the database and to see if the data I need is in one table or spread on to other tables,
 this is so that I can join/merge the tables etc before fetching the data to ensure that all the data that I need is in one table.Dbeaver is usually perfect for this because it gives a 
 graphical view of all the tables and data and it works with a lot of different databases.
+9.After joining all the tables ,I then extraxted all the columns associated with the data that was needed in the field.
+10.I then ran a prompt "How to create an XML product feed from a given database of products according to the Google Merchant product data specifications.", this will help me get a general idea pf how to 
+create the structure of the XML faster since this is my first time creating it according to the Google Merchant product data specifications. 

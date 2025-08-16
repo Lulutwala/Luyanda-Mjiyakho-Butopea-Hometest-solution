@@ -22,6 +22,6 @@ JOIN product_image pro_image
 WHERE pro.quantity >= 1;
 """)
 
-rows = cursor.fetchall()
-for row in rows:
-    print(row)
+products = cursor.fetchall()
+
+
