@@ -13,7 +13,7 @@ cursor.execute("""
         pro.price,
         man.name as brand
     FROM product pro
-    JOIN manufacture man ON pro.manufacture_id = man.manufacture_id
+    JOIN manufacturer man ON pro.manufacturer_id = man.manufacturer_id
     JOIN product_description pro_des ON pro.product_id = pro_des.product_id
     WHERE pro.status != 0
 """)
